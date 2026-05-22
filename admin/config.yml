@@ -13,4 +13,4 @@ collections:
     fields:
       - {label: "اسم المنتج", name: "title", widget: "string"}
       - {label: "السعر", name: "price", widget: "string"}
-      - {label: "الصورة", name: "image", widget: "image"}
+      - {label: "الصورة", name: "image", widget: "image"} 
