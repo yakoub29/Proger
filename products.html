@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة المشتريات</title>
+    <style>
+        body { background: #f8ead7; font-family: Arial, sans-serif; padding: 20px; }
+        .cart-container { max-width: 400px; margin: auto; }
+        h2 { color: #4d3725; margin-bottom: 20px; text-align: center; }
+        .cart-item { background: white; padding: 15px; border-radius: 20px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .item-info h4 { color: #5a3c1e; margin-bottom: 5px; }
+        .price { color: #b78a55; font-weight: bold; }
+        .quantity-control { display: flex; align-items: center; gap: 10px; }
+        .qty-btn { background: #f3dfc2; border: none; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; }
+        .checkout-btn { background: #4d3725; color: white; width: 100%; padding: 15px; border: none; border-radius: 50px; font-size: 18px; margin-top: 20px; text-decoration: none; display: block; text-align: center; }
+    </style>
+</head>
+<body>
+<div class="cart-container">
+    <h2>سلة المشتريات 🛒</h2>
+
+    <div class="cart-item">
+        <img src="images/1.jpg" style="width: 70px; height: 70px; border-radius: 15px; object-fit: cover;">
+        <div class="item-info"><h4>بلانر يومي</h4><span class="price">2500 دج</span></div>
+        <div class="quantity-control"><button class="qty-btn">-</button> <span>1</span> <button class="qty-btn">+</button></div>
+    </div>
+
+    <div class="cart-item">
+        <img src="images/2.jpg" style="width: 70px; height: 70px; border-radius: 15px; object-fit: cover;">
+        <div class="item-info"><h4>مجموعة ستيكرز</h4><span class="price">500 دج</span></div>
+        <div class="quantity-control"><button class="qty-btn">-</button> <span>1</span> <button class="qty-btn">+</button></div>
+    </div>
+
+    <a href="https://wa.me/213775690353?text=مرحبا، أريد طلب المنتجات من موقع Planner's World." class="checkout-btn">إتمام الطلب عبر واتساب 💬</a>
+    <a href="index.html" style="display:block; text-align:center; margin-top:15px; color:#5a3c1e;">العودة للرئيسية</a>
+</div>
+</body>
+</html>
+
